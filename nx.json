@@ -1,5 +1,5 @@
 {
-  "npmScope": "blog",
+  "npmScope": "rpd10",
   "implicitDependencies": {
     "angular.json": "*",
     "package.json": {
@@ -19,12 +19,24 @@
     }
   },
   "projects": {
+    "web": {
+      "tags": []
+    },
+    "web-e2e": {
+      "tags": [],
+      "implicitDependencies": ["web"]
+    },
+    "home": {
+      "tags": []
+    },
     "blog": {
       "tags": []
     },
-    "blog-e2e": {
-      "tags": [],
-      "implicitDependencies": ["blog"]
+    "tags": {
+      "tags": []
+    },
+    "blog-data": {
+      "tags": []
     }
   }
 }
